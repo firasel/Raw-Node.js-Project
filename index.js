@@ -9,9 +9,9 @@ const app = {};
 
 // testing file system
 // @TODO: after sometime remove this code
-data.delete("test", "newFile", (err) => {
-  console.log(`error was`, err);
-});
+// data.create("test", "newFile", (err) => {
+//   console.log(`error was`, err);
+// });
 
 // create server
 app.createServer = () => {
